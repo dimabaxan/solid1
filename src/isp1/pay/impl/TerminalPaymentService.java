@@ -1,7 +1,6 @@
 package isp1.pay.impl;
 
 import isp1.pay.Payable;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class TerminalPaymentService implements Payable {
 
@@ -17,6 +16,7 @@ public class TerminalPaymentService implements Payable {
 
     @Override
     public void payPhoneNumber(int amount) {
-        throw new NotImplementedException();
+
+
     }
 }
